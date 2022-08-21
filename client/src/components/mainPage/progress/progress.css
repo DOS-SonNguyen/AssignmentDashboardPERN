@@ -1,0 +1,112 @@
+.progress {
+    position: absolute;
+    top: 510px;
+    left: 480px;
+    width: 570px;
+    height: 250px;
+    background: #080C35;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.progress-title {
+    margin-bottom: 0px;
+    margin-left: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.progress-content{
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.progress-content-subject1-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.progress-content-subject1-container{
+    background-color: #3E4E50;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.progress-content-subject1-container-bar{
+    background-color: #59DBAF;
+    padding: 0.6%;
+    border-radius: 15px;
+}
+
+.progress-content-subject2{
+    margin-top: 10px;
+}
+
+.progress-content-subject2-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.progress-content-subject2-container{
+    background-color: #3E4E50;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.progress-content-subject2-container-bar{
+    background-color: #59DBAF;
+    padding: 0.6%;
+    border-radius: 15px;
+}
+
+
+.progress-content-subject3-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.progress-content-subject3{
+    margin-top: 10px;
+}
+.progress-content-subject3-container{
+    background-color: #3E4E50;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.progress-content-subject3-container-bar{
+    background-color: #59DBAF;
+    padding: 0.6%;
+    border-radius: 15px;
+}
+
+.progress-content-subject4{
+    margin-top: 10px;
+}
+.progress-content-subject4-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.progress-content-subject4-container{
+    background-color: #3E4E50;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.progress-content-subject4-container-bar{
+    background-color: #59DBAF;
+    padding: 0.6%;
+    border-radius: 15px;
+}

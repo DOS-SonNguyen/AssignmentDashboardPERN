@@ -1,0 +1,48 @@
+.note {
+    position: absolute;
+    top: 510px;
+    left: 50px;
+    width: 400px;
+    height: 250px;
+    background: #080C35;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.note-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 30px;
+}
+
+.note-title span {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.note hr {
+    width: 335px;
+    height: 0.1px;
+    background: #fff;
+    margin: -10px 30px;
+}
+
+.note-content {
+    margin: 0 30px;
+}
+.note-content h5 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 20px 0 0 0;
+}
+
+.note-content p{
+    margin: 5px 0;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+}

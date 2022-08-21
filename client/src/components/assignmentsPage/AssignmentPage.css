@@ -1,0 +1,91 @@
+.assignmentPage {
+    position: relative;
+}
+
+.header_ {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 1050px;
+}
+
+
+.header-left_ {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.addIcon{
+    width: 25px;
+    height: 25px;
+    margin: 0 20px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(137deg) brightness(103%) contrast(101%);
+}
+
+.search-bar {
+    padding: 10px;
+    height: 40px;
+    background-color: #080C35;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    background: none;
+    float: left;
+    font-size: 16px;
+    line-height: 40px;
+    width: 350px;
+    height: 40px;
+}
+
+.search-bar input::placeholder{
+    color: #A3AACC;
+    padding-left: 10px;;
+}
+
+.searchIcon {
+    width: 25px;
+    height: 25px;
+    float: right;
+    padding: 10px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(137deg) brightness(103%) contrast(101%);
+}
+
+
+
+.header-right_ {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.header-right_ img {
+    width: 25px;
+    height: 25px;
+    margin: 0 20px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(137deg) brightness(103%) contrast(101%);
+}
+
+.container{
+    position: absolute;
+    top: 100px;
+    left: 5px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+
+.btn{
+    background: none;
+    border: none;
+    outline: none;
+    height: 25px;
+    cursor: pointer;
+}

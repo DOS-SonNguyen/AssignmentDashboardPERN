@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.517b20ec.css",
+    "main.js": "/static/js/main.e8faa5d3.js",
+    "static/media/user.png": "/static/media/user.ff78898164b887b1bb53.png",
+    "static/media/gear-solid.svg": "/static/media/gear-solid.db0ebe953158b583f039a26a8cd87113.svg",
+    "static/media/house-solid.svg": "/static/media/house-solid.5728388793e3276b853f1808d543e55a.svg",
+    "static/media/book-open-solid.svg": "/static/media/book-open-solid.394cc120224f710d8fe135f4f3832370.svg",
+    "static/media/bell-solid.svg": "/static/media/bell-solid.2fce7fe436b83d7bd8b814a7cfb57109.svg",
+    "static/media/edit-solid.svg": "/static/media/edit-solid.b6dc5de3e4a4a24718eecd0faf0613cc.svg",
+    "static/media/magnifying-glass-solid.svg": "/static/media/magnifying-glass-solid.cd761af2e6d53d07ac6129e7f885fa95.svg",
+    "static/media/trash-solid.svg": "/static/media/trash-solid.4da6efdae2708ae1b361069b1440fde4.svg",
+    "index.html": "/index.html",
+    "static/media/plus-solid.svg": "/static/media/plus-solid.9b9daa651194c333335d737f66d54109.svg",
+    "main.517b20ec.css.map": "/static/css/main.517b20ec.css.map",
+    "main.e8faa5d3.js.map": "/static/js/main.e8faa5d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.517b20ec.css",
+    "static/js/main.e8faa5d3.js"
+  ]
+}

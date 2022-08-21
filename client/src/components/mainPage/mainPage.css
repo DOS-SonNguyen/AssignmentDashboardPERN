@@ -1,0 +1,43 @@
+.mainPage{
+    position: relative;
+}
+
+.header{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 1050px;
+}
+
+.header-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-left h3{
+    font-size: 15px;
+    margin: 0px;
+    font-weight: 400;
+    color: #A3AACC;
+}
+
+.header-left h1{
+    font-size: 35px;
+    font-weight: 500;
+    margin: 0px;
+    color: #EAEBFF;
+}
+
+.header-right{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.header-right img{
+    width: 25px;
+    height: 25px;
+    margin: 0 20px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(137deg) brightness(103%) contrast(101%);
+}

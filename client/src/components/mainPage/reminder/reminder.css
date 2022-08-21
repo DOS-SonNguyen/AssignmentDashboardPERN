@@ -1,0 +1,113 @@
+.reminder {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 120px;
+    left: 85px;
+    width: 300px;
+    height: 150px;
+    background: linear-gradient(269.73deg, #B2678F 10.13%, #C27372 86.36%);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.reminder-title {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 10px;
+}
+
+.reminder-time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.reminder-time-day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.reminder-time-day span {
+    width: 30px;
+    height: 30px;
+    background: rgba(228, 150, 158, 0.65);
+    border-radius: 5px;
+    padding: 0 5px;
+    margin: 0 2px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 14px;
+}
+
+.reminder-time-day p {
+    margin: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 14px;
+}
+
+
+.reminder-time-hour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.reminder-time-hour span {
+    width: 30px;
+    height: 30px;
+    background: rgba(228, 150, 158, 0.65);
+    border-radius: 5px;
+    padding: 0 5px;
+    margin: 0 2px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 14px;
+}
+
+.reminder-time-hour p {
+    margin: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 14px;
+}
+
+
+.reminder-time-minute {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.reminder-time-minute span {
+    width: 30px;
+    height: 30px;
+    background: rgba(228, 150, 158, 0.65);
+    border-radius: 5px;
+    padding: 0 5px;
+    margin: 0 2px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 14px;
+}
+
+.reminder-time-minute p {
+    margin: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 14px;
+}
