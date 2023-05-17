@@ -4,7 +4,7 @@ CREATE TABLE assignment (
     id serial PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
     description VARCHAR(255) NOT NULL,
-    due_date TIMESTAMP NOT NULL,
+    due_date TIMESTAMP,
     year VARCHAR(4) NOT NULL,
     month VARCHAR(4) NOT NULL,
     day VARCHAR(4) NOT NULL,
