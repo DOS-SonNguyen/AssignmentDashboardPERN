@@ -29,7 +29,7 @@ app.get("/assignments", (req, res) => {
 
 app.post("/assignment", async (req, res) => {
     try{
-        const { name, description, due_date, year, month, day, hour, minute, status, progress } = req.body;
+        const { name, due_date, year, month, day, hour, minute, status, progress,description } = req.body;
         const newAssignment = await pool.query("INSERT INTO assignment (name, description, due_date, year, month, day, hour, minute, status, progress) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING *", [name, description, due_date, year, month, day, hour, minute, status, progress]);
         res.json(newAssignment.rows[0]);
     } catch(err){
